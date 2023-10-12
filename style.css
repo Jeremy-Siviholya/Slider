@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ic{
+    color: white;
+    font-size: 30px;
+}
+.wrapper{
+    background: #efe;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #424242;
+    background: url('./img/1162367_ORH91S0.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 45px;
+    background: url('./img/1162367_ORH91S0.jpg');
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.side{
+position: absolute;
+width: 600px;
+background: url('./img/1162367_ORH91S0.jpg');
+border-radius: 10px;
+opacity: 40px;
+background: #424242;
+opacity: 20;
+backdrop-filter: blur(20px);
+border: 1px solid rgb(199, 193, 193);
+height: 550px;
+bottom: -100%;
+transition-duration: .5s;
+}
+
+.tog{
+    position: absolute;
+    bottom: 60px;
+}
+
+
+button{
+
+    background: rgb(82, 82, 170);
+    color: white;
+    padding: 10 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(94, 87, 87);
+}
+
+.btn{
+  
+    background: gray ;
+    opacity: .5s;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
